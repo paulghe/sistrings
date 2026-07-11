@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "title": "Sistrings — Duo de Vioară & Violă pentru Nunți și Evenimente",
+    "description": "Sistrings este un duo format din două surori, la vioară și violă, care aduc muzică live elegantă la nunți, evenimente corporate, gale și petreceri private."
+  },
+  "nav": {
+    "about": "Duo-ul",
+    "events": "Evenimente",
+    "repertoire": "Repertoriu",
+    "gallery": "Galerie",
+    "contact": "Contact",
+    "book": "Rezervă"
+  },
+  "hero": {
+    "eyebrow": "Duo de Vioară & Violă",
+    "tagline": "Două surori. Două corzi. Un singur sunet de neuitat pentru cele mai frumoase momente ale vieții.",
+    "cta": "Rezervă duo-ul",
+    "secondary": "Vezi-ne cântând",
+    "scroll": "Derulează"
+  },
+  "about": {
+    "eyebrow": "Duo-ul",
+    "title": "Două surori, un singur sunet",
+    "p1": "Sistrings este un duo format din două surori care au crescut împărțind același pupitru și nu s-au mai oprit niciodată. Ambele absolvente ale Universității Naționale de Muzică București, îmbină rigoarea conservatorului cu un instinct comun pe care nicio repetiție nu îl poate preda — două instrumente care devin o singură voce vie.",
+    "p2": "Îmbinând căldura violei cu strălucirea viorii, trec cu naturalețe de la clasicul atemporal la melodiile pe care toată lumea le știe pe de rost — creând atmosfera perfectă pentru ziua ta, indiferent de ocazie.",
+    "violin": "Vioară",
+    "viola": "Violă"
+  },
+  "events": {
+    "eyebrow": "Unde cântăm",
+    "title": "Muzică pentru orice ocazie",
+    "subtitle": "De la prima notă a ceremoniei până la ultimul dans al serii, adaptăm atmosfera evenimentului tău.",
+    "items": {
+      "weddings": {
+        "title": "Nunți",
+        "desc": "Ceremonii, cocktailuri și petreceri — pășește spre altar pe o melodie cu adevărat a ta."
+      },
+      "corporate": {
+        "title": "Corporate & Gale",
+        "desc": "Corzi live rafinate pentru lansări, dineuri și seri de premiere."
+      },
+      "private": {
+        "title": "Evenimente private",
+        "desc": "Aniversări și sărbători intime, cu o notă personală."
+      },
+      "concerts": {
+        "title": "Concerte & Spectacole",
+        "desc": "Recitaluri și colaborări pentru scene, festivaluri și săli de spectacol."
+      }
+    }
+  },
+  "repertoire": {
+    "eyebrow": "Repertoriu",
+    "title": "De la Bach la topurile de azi",
+    "subtitle": "Un repertoriu viu, care traversează secole și genuri — iar melodia ta specială o învățăm cu drag.",
+    "genres": [
+      "Clasic",
+      "Coloane sonore",
+      "Pop & Rock",
+      "Jazz & Swing",
+      "Tradițional",
+      "Coveruri contemporane"
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "În imagini",
+    "videosTitle": "Vezi & ascultă",
+    "videosSubtitle": "Apasă play pentru a auzi duo-ul — doar corzi, fără negative.",
+    "play": "Redă clipul",
+    "alt": {
+      "hero": "Duo-ul Sistrings stând spate în spate, în rochii roșie și neagră, cu vioară și violă",
+      "about": "Portret al duo-ului Sistrings cu instrumentele lor",
+      "events": "Sistrings cântând live la un eveniment elegant",
+      "seated": "Una dintre surori așezată pe podea, cu instrumentul ei",
+      "duoElegant": "Duo-ul Sistrings pozând elegant cu vioară și violă",
+      "portrait1": "Portret de studio al duo-ului Sistrings",
+      "portrait2": "Surorile cu instrumentele lor într-un decor de studio",
+      "portrait3": "Portret elegant de studio al duo-ului de vioară și violă"
+    },
+    "videoTitle": {
+      "live": "Recital live",
+      "studio": "Duo-ul în mișcare"
+    }
+  },
+  "contact": {
+    "eyebrow": "Rezervări",
+    "title": "Hai să facem evenimentul tău de neuitat",
+    "subtitle": "Spune-ne data, locul și atmosfera pe care ți-o dorești — revenim cu disponibilitate și idei.",
+    "emailCta": "Scrie-ne",
+    "emailSubject": "Cerere de rezervare — Sistrings",
+    "emailBody": "Bună Sistrings,\n\nAș vrea să verific disponibilitatea voastră.\n\n• Tip eveniment:\n• Data:\n• Locația:\n• Număr aprox. invitați:\n\nCâteva cuvinte despre ce v-ați dori:\n\nMulțumesc!",
+    "phoneLabel": "Sună sau WhatsApp",
+    "locationLabel": "Din",
+    "followLabel": "Urmărește-ne"
+  },
+  "footer": {
+    "tagline": "Duo de Vioară & Violă",
+    "nav": "Explorează",
+    "rights": "Toate drepturile rezervate."
+  },
+  "localeSwitcher": {
+    "label": "Limbă",
+    "en": "English",
+    "ro": "Română"
+  }
+}

@@ -1,0 +1,141 @@
+@import 'tailwindcss';
+@plugin 'daisyui' {
+  themes: false;
+}
+
+/* ── Sistrings brand theme (burgundy + gold, cinematic dark) ───────────── */
+@plugin 'daisyui/theme' {
+  name: 'sistrings';
+  default: true;
+  prefersdark: true;
+  color-scheme: dark;
+
+  --color-base-100: #141011;
+  --color-base-200: #1c1618;
+  --color-base-300: #271e21;
+  --color-base-content: #f0e7da;
+
+  --color-primary: #7b1e38;
+  --color-primary-content: #fbe9ec;
+  --color-secondary: #c2a15a;
+  --color-secondary-content: #1a1310;
+  --color-accent: #c2a15a;
+  --color-accent-content: #1a1310;
+  --color-neutral: #1c1618;
+  --color-neutral-content: #f0e7da;
+
+  --color-info: #7fb4c9;
+  --color-info-content: #06141a;
+  --color-success: #86ac7c;
+  --color-success-content: #06140a;
+  --color-warning: #d6a54a;
+  --color-warning-content: #1a1200;
+  --color-error: #c0563f;
+  --color-error-content: #ffffff;
+
+  --radius-selector: 0.5rem;
+  --radius-field: 0.375rem;
+  --radius-box: 0.75rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}
+
+/* ── Typography tokens (wired to next/font variables) ──────────────────── */
+@theme {
+  --font-serif: var(--font-playfair), ui-serif, Georgia, 'Times New Roman', serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --color-gold: #c2a15a;
+  --color-burgundy: #7b1e38;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Respect users who prefer no motion */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+
+  body {
+    font-family: var(--font-sans);
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+
+  ::selection {
+    background: var(--color-burgundy);
+    color: #fbe9ec;
+  }
+}
+
+@layer components {
+  /* Small uppercase label above section titles */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.25em] text-secondary;
+  }
+
+  /* Thin gold divider */
+  .rule {
+    @apply h-px w-16 bg-secondary/50;
+  }
+
+  /* Entrance animation, triggered by [data-reveal] + .is-visible */
+  [data-reveal] {
+    opacity: 0;
+    transform: translateY(24px);
+    transition:
+      opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: opacity, transform;
+  }
+  [data-reveal].is-visible {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Slow ambient zoom for the hero image */
+@keyframes heroZoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.08);
+  }
+}
+.animate-hero-zoom {
+  animation: heroZoom 20s ease-out forwards;
+}

@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "title": "Sistrings — Violin & Viola Duo for Weddings & Events",
+    "description": "Sistrings is a duo of two sisters on violin and viola, bringing elegant live strings to weddings, corporate events, galas and private celebrations."
+  },
+  "nav": {
+    "about": "The Duo",
+    "events": "Events",
+    "repertoire": "Repertoire",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "book": "Book us"
+  },
+  "hero": {
+    "eyebrow": "Violin & Viola Duo",
+    "tagline": "Two sisters. Two strings. One unforgettable sound for life's most beautiful moments.",
+    "cta": "Book the duo",
+    "secondary": "Watch us play",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "eyebrow": "The Duo",
+    "title": "Two sisters, one sound",
+    "p1": "Sistrings is a duo of two sisters who grew up sharing a music stand and never stopped. Both graduates of the National University of Music Bucharest, they pair conservatory precision with an instinct for each other that no rehearsal can teach — two instruments becoming a single, breathing voice.",
+    "p2": "Blending the warmth of the viola with the brilliance of the violin, they move effortlessly from timeless classical to the songs everyone knows by heart — shaping the perfect atmosphere for your day, whatever the occasion.",
+    "violin": "Violin",
+    "viola": "Viola"
+  },
+  "events": {
+    "eyebrow": "Where we play",
+    "title": "Music for every occasion",
+    "subtitle": "From the first note of a ceremony to the last dance of the night, we tailor the mood to your event.",
+    "items": {
+      "weddings": {
+        "title": "Weddings",
+        "desc": "Ceremonies, cocktails and receptions — walk down the aisle to a song that's truly yours."
+      },
+      "corporate": {
+        "title": "Corporate & Galas",
+        "desc": "Refined live strings that lift product launches, dinners and award nights."
+      },
+      "private": {
+        "title": "Private Events",
+        "desc": "Birthdays, anniversaries and intimate celebrations with a personal touch."
+      },
+      "concerts": {
+        "title": "Concerts & Shows",
+        "desc": "Full performances and collaborations for stages, festivals and venues."
+      }
+    }
+  },
+  "repertoire": {
+    "eyebrow": "Repertoire",
+    "title": "From Bach to the charts",
+    "subtitle": "A living songbook that spans centuries and genres — and we love learning your special request.",
+    "genres": [
+      "Classical",
+      "Film & TV Themes",
+      "Pop & Rock",
+      "Jazz & Swing",
+      "Traditional",
+      "Contemporary Covers"
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Gallery",
+    "title": "In pictures",
+    "videosTitle": "Watch & listen",
+    "videosSubtitle": "Press play to hear the duo in their own words — strings only, no backing tracks.",
+    "play": "Play video",
+    "alt": {
+      "hero": "Sistrings duo standing back to back in red and black gowns holding violin and viola",
+      "about": "Portrait of the Sistrings duo with their instruments",
+      "events": "Sistrings performing live at an elegant event",
+      "seated": "One of the sisters seated on the floor with her instrument",
+      "duoElegant": "The Sistrings duo posing elegantly with violin and viola",
+      "portrait1": "Studio portrait of the Sistrings duo",
+      "portrait2": "The sisters with their instruments in a studio setting",
+      "portrait3": "Elegant studio portrait of the violin and viola duo"
+    },
+    "videoTitle": {
+      "live": "Live performance",
+      "studio": "The duo in motion"
+    }
+  },
+  "contact": {
+    "eyebrow": "Bookings",
+    "title": "Let's make your event unforgettable",
+    "subtitle": "Tell us the date, the place and the vibe you're dreaming of — we'll reply with availability and ideas.",
+    "emailCta": "Email us",
+    "emailSubject": "Booking enquiry — Sistrings",
+    "emailBody": "Hi Sistrings,\n\nI'd love to check your availability.\n\n• Event type:\n• Date:\n• Location:\n• Approx. guests:\n\nA few words about what you have in mind:\n\nThank you!",
+    "phoneLabel": "Call or WhatsApp",
+    "locationLabel": "Based in",
+    "followLabel": "Follow the journey"
+  },
+  "footer": {
+    "tagline": "Violin & Viola Duo",
+    "nav": "Explore",
+    "rights": "All rights reserved."
+  },
+  "localeSwitcher": {
+    "label": "Language",
+    "en": "English",
+    "ro": "Română"
+  }
+}
