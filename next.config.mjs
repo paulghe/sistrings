@@ -6,6 +6,7 @@ const withNextIntl = createNextIntlPlugin();
 const nextConfig = {
   images: {
     formats: ['image/avif', 'image/webp'],
+    qualities: [75, 78, 80, 82, 88],
   },
 };
 
