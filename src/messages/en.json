@@ -46,6 +46,10 @@
       "concerts": {
         "title": "Concerts & Shows",
         "desc": "Full performances and collaborations for stages, festivals and venues."
+      },
+      "ads": {
+        "title": "Music Videos & Commercials",
+        "desc": "The duo in an acoustic setting, special arrangements for songs in an intimate version. Special appearances for music videos or commercials."
       }
     }
   },
@@ -66,7 +70,7 @@
     "eyebrow": "Gallery",
     "title": "In pictures",
     "videosTitle": "Watch & listen",
-    "videosSubtitle": "Press play to hear the duo in their own words — strings only, no backing tracks.",
+    "videosSubtitle": "Press play to hear the duo in their own words",
     "play": "Play video",
     "alt": {
       "hero": "Sistrings duo standing back to back in red and black gowns holding violin and viola",

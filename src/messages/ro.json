@@ -13,16 +13,16 @@
   },
   "hero": {
     "eyebrow": "Duo de Vioară & Violă",
-    "tagline": "Două surori. Două corzi. Un singur sunet de neuitat pentru cele mai frumoase momente ale vieții.",
+    "tagline": "Două surori. Două instrumente. Un singur sunet de neuitat pentru cele mai frumoase momente ale vieții.",
     "cta": "Rezervă duo-ul",
-    "secondary": "Vezi-ne cântând",
+    "secondary": "Ascultă-ne",
     "scroll": "Derulează"
   },
   "about": {
     "eyebrow": "Duo-ul",
     "title": "Două surori, un singur sunet",
-    "p1": "Sistrings este un duo format din două surori care au crescut împărțind același pupitru și nu s-au mai oprit niciodată. Ambele absolvente ale Universității Naționale de Muzică București, îmbină rigoarea conservatorului cu un instinct comun pe care nicio repetiție nu îl poate preda — două instrumente care devin o singură voce vie.",
-    "p2": "Îmbinând căldura violei cu strălucirea viorii, trec cu naturalețe de la clasicul atemporal la melodiile pe care toată lumea le știe pe de rost — creând atmosfera perfectă pentru ziua ta, indiferent de ocazie.",
+    "p1": "Sistrings este un duo format din două surori care au crescut împărțind același pupitru și aceeași dragoste pentru muzică. Ambele absolvente ale Universității Naționale de Muzică București, îmbină rigoarea conservatorului cu stilul liber și plin de viață al muzicii moderne — două instrumente care devin o singură voce vie.",
+    "p2": "Îmbinând căldura violei cu strălucirea viorii, trec cu naturalețe de la clasicul atemporal la melodiile pe care toată lumea le fredonează — creând atmosfera perfectă pentru evenimentul tău, indiferent de ocazie.",
     "violin": "Vioară",
     "viola": "Violă"
   },
@@ -37,7 +37,7 @@
       },
       "corporate": {
         "title": "Corporate & Gale",
-        "desc": "Corzi live rafinate pentru lansări, dineuri și seri de premiere."
+        "desc": "Muzică live pentru lansări, dineuri și seri de premiere. Petreceri pentru corporație & teambuilding."
       },
       "private": {
         "title": "Evenimente private",
@@ -46,6 +46,10 @@
       "concerts": {
         "title": "Concerte & Spectacole",
         "desc": "Recitaluri și colaborări pentru scene, festivaluri și săli de spectacol."
+      },
+      "ads": {
+        "title": "Videoclipuri & Reclame",
+        "desc": "Duo în varianta acustică, aranjamente speciale pentru piese într-o versiune intimă. Figurație specială pentru videoclipuri sau reclame."
       }
     }
   },
@@ -66,7 +70,7 @@
     "eyebrow": "Galerie",
     "title": "În imagini",
     "videosTitle": "Vezi & ascultă",
-    "videosSubtitle": "Apasă play pentru a auzi duo-ul — doar corzi, fără negative.",
+    "videosSubtitle": "Apasă play pentru a auzi duo-ul",
     "play": "Redă clipul",
     "alt": {
       "hero": "Duo-ul Sistrings stând spate în spate, în rochii roșie și neagră, cu vioară și violă",
