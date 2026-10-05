@@ -71,7 +71,7 @@ export const videos: PerformanceVideo[] = [
  * non-clickable placeholder. Add filenames here as new photos land in the folder.
  */
 export const eventImages: Record<string, string[]> = {
-  weddings: [],
+  weddings: ["/weddings/wedding2.jpeg", "/weddings/wedding1.jpeg"],
   corporate: [
     "/corporate/IMG_6642.jpeg",
     "/corporate/IMG_6661.jpeg",
