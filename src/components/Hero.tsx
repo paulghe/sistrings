@@ -23,7 +23,7 @@ export function Hero() {
         />
         <Image
           src={heroImageWide}
-          alt={g('alt.hero')}
+          alt={g('alt.events')}
           fill
           priority
           sizes="(min-width: 1024px) 100vw, 10px"
@@ -37,16 +37,19 @@ export function Hero() {
 
       {/* Content */}
       <div className="relative z-10 mx-auto flex max-w-4xl flex-col items-center px-6 text-center">
-        <p className="eyebrow mb-6 animate-[fadeIn_1s_ease-out_both]">
-          <span className="rule" />
-          {t('eyebrow')}
-          <span className="rule" />
-        </p>
-
-        <Wordmark
-          showMark={false}
-          className="text-[clamp(3.5rem,13vw,9rem)] leading-[0.9] drop-shadow-[0_2px_30px_rgba(0,0,0,0.5)]"
-        />
+        {/* The page's single <h1>: primary keyword (eyebrow) + brand name */}
+        <h1 className="flex flex-col items-center">
+          <span className="eyebrow mb-6 font-sans tracking-[0.18em] animate-[fadeIn_1s_ease-out_both] sm:tracking-[0.25em]">
+            <span className="rule hidden sm:block" />
+            <span className="text-balance">{t('eyebrow')}</span>
+            <span className="rule hidden sm:block" />
+          </span>{' '}
+          {/* ↑ keeps "…evenimente Sistrings" as separate words for crawlers; invisible in the flex layout */}
+          <Wordmark
+            showMark={false}
+            className="text-[clamp(3.5rem,13vw,9rem)] leading-[0.9] drop-shadow-[0_2px_30px_rgba(0,0,0,0.5)]"
+          />
+        </h1>
 
         <p className="mt-8 max-w-xl text-balance text-lg font-light leading-relaxed text-base-content/85 md:text-xl">
           {t('tagline')}

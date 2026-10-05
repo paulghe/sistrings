@@ -20,6 +20,10 @@ export const siteConfig = {
   // Home base shown in the contact section. Leave '' to hide.
   location: "Bucharest, Romania",
 
+  // Home base + where you perform, as used in Google's structured data (JSON-LD).
+  address: { locality: "București", country: "RO" },
+  areaServed: "Romania",
+
   // Social profiles — leave a value '' to hide that icon.
   social: {
     instagram: "https://www.instagram.com/sistrings.duo/",

@@ -6,6 +6,7 @@ import { Repertoire } from '@/components/Repertoire';
 import { Gallery } from '@/components/Gallery';
 import { Videos } from '@/components/Videos';
 import { Contact } from '@/components/Contact';
+import { StructuredData } from '@/components/StructuredData';
 
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -13,6 +14,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
   return (
     <>
+      <StructuredData locale={locale} />
       <Hero />
       <About />
       <Events />

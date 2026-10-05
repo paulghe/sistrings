@@ -5,7 +5,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { siteConfig } from '@/config/site';
-import { heroImage } from '@/config/media';
+import { languageAlternates, localePath, localeUrl, ogImage, ogLocale } from '@/lib/seo';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import '../globals.css';
@@ -33,6 +33,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'meta' });
+  const image = { ...ogImage(locale), alt: t('title') };
 
   return {
     metadataBase: new URL(siteConfig.url),
@@ -40,23 +41,24 @@ export async function generateMetadata({
     description: t('description'),
     applicationName: siteConfig.name,
     alternates: {
-      canonical: locale === routing.defaultLocale ? '/' : `/${locale}`,
-      languages: { en: '/', ro: '/ro' },
+      canonical: localePath(locale),
+      languages: languageAlternates(),
     },
     openGraph: {
       type: 'website',
       siteName: siteConfig.name,
       title: t('title'),
       description: t('description'),
-      url: locale === routing.defaultLocale ? siteConfig.url : `${siteConfig.url}/${locale}`,
-      locale: locale === 'ro' ? 'ro_RO' : 'en_US',
-      images: [{ url: heroImage, width: 1200, height: 630, alt: siteConfig.name }],
+      url: localeUrl(locale),
+      locale: ogLocale[locale],
+      alternateLocale: routing.locales.filter((l) => l !== locale).map((l) => ogLocale[l]),
+      images: [image],
     },
     twitter: {
       card: 'summary_large_image',
       title: t('title'),
       description: t('description'),
-      images: [heroImage],
+      images: [image],
     },
   };
 }
